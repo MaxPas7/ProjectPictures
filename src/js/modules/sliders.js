@@ -1,3 +1,5 @@
+import { reject, resolve } from 'core-js/fn/promise'
+
 const sliders = (slides, dir, prev, next) => {
 	let slideIndex = 1,
 			paused = false;
@@ -73,3 +75,5 @@ const sliders = (slides, dir, prev, next) => {
 };
 
 export default sliders;
+
+
